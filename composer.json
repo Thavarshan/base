@@ -1,6 +1,6 @@
 {
     "name": "thavarshan/base",
-    "description": "The Laravel Framework.",
+    "description": "A PHP composer package template.",
     "keywords": ["composer", "package"],
     "authors": [
         {
