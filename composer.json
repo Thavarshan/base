@@ -1,5 +1,6 @@
 {
     "name": "thavarshan/base",
+    "type": "project",
     "description": "A PHP composer package template.",
     "keywords": ["composer", "package"],
     "authors": [
