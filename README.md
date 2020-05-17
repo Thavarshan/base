@@ -8,15 +8,15 @@ Base is just a basic directory structure of a typical PHP composer package. It c
 
 You will need PHP installed on your dev machine. Obviously.
 
-```shell
-php: "^7.2"
+```bash
+php: "^7.3.1"
 ```
 
 ### Installing
 
 Since **Base** is just a directory structure there is no complicated installation methods or configurations. All you have to do to get a copy is run the below commands on your terminal.
 
-```shell
+```bash
 git clone https://github.com/Thavarshan/base
 cd base
 composer.phar install
@@ -26,8 +26,8 @@ composer.phar install
 
 After running composer package installation. simply run,
 
-```shell
-/vendor/bin/phpunit
+```bash
+vendor/bin/phpunit
 ```
 
 ## Built With
