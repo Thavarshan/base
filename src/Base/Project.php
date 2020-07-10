@@ -11,8 +11,10 @@ final class Project
 {
     /**
      * The name of the project.
+     *
+     * @var string
      */
-    private string $name;
+    private $name;
 
     /**
      * Create a new project instance.
