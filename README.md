@@ -1,5 +1,21 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/thavarshan/base/master/docs/img/example.png" height="300" alt="Skeleton Php">
+
+    <p align="center">
+        <a href="https://github.com/thavarshan/base/actions"><img alt="GitHub Workflow Status (master)" src="https://img.shields.io/github/workflow/status/thavarshan/base/Tests/master"></a>
+
+        <a href="https://packagist.org/packages/thavarshan/base">
+            <img alt="Total Downloads" src="https://img.shields.io/packagist/dt/thavarshan/base">
+        </a>
+
+        <a href="https://packagist.org/packages/thavarshan/base">
+            <img alt="Latest Version" src="https://img.shields.io/packagist/v/thavarshan/base">
+        </a>
+
+        <a href="https://packagist.org/packages/thavarshan/base">
+            <img alt="License" src="https://img.shields.io/packagist/l/thavarshan/base">
+        </a>
+    </p>
 </p>
 
 Base is a basic skeleton of a typical PHP composer package. It comes in handy when you need to quickly develop a PHP package.
@@ -9,7 +25,7 @@ Base is a basic skeleton of a typical PHP composer package. It comes in handy wh
 ✨ Create the package using [Composer](https://getcomposer.org):
 
 ```bash
-composer create-project nunomaduro/skeleton-php --prefer-source PackageName
+composer create-project thavarshan/base --prefer-source PackageName
 ```
 
 🧹 Keep a modern codebase with **PHP CS Fixer**:
