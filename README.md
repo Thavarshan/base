@@ -1,4 +1,6 @@
-# Base
+<p align="center">
+    <img src="https://raw.githubusercontent.com/thavarshan/base/master/docs/img/example.png" height="300" alt="Skeleton Php">
+</p>
 
 Base is a basic skeleton of a typical PHP composer package. It comes in handy when you need to quickly develop a PHP package.
 
