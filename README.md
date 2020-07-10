@@ -1,47 +1,29 @@
 # Base
 
-Base is just a basic directory structure of a typical PHP composer package. It comes in handy when you need to quickly develop a PHP package.
+Base is a basic skeleton of a typical PHP composer package. It comes in handy when you need to quickly develop a PHP package.
 
-## Getting Started
+> **Requires [PHP 7.3.0+](https://php.net/releases/)**
 
-### Prerequisites
-
-You will need PHP installed on your dev machine. Obviously.
+✨ Create the package using [Composer](https://getcomposer.org):
 
 ```bash
-php: "^7.3.1"
+composer create-project nunomaduro/skeleton-php --prefer-source PackageName
 ```
 
-### Installing
-
-Since **Base** is just a directory structure there is no complicated installation methods or configurations. All you have to do to get a copy is run the below commands on your terminal.
-
+🧹 Keep a modern codebase with **PHP CS Fixer**:
 ```bash
-git clone https://github.com/Thavarshan/base
-cd base
-composer.phar install
+composer lint
 ```
 
-## Running the tests
-
-After running composer package installation. simply run,
-
+✅ Run unit tests using **PHPUnit**:
 ```bash
-vendor/bin/phpunit
+composer test:unit
 ```
 
-## Built With
+🚀 Run the entire test suite:
+```bash
+composer test
+```
 
-* [PHP](http://www.php.net) - A widely-used open source general-purpose scripting language.
-
-## Authors
-
-* **Thavarshan Thayananthajothy** - *Initial work* - [Thavarshan](https://github.com/Thavarshan)
-
-See also the list of [contributors](https://github.com/Thavarshan/base/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+**Base** was created by **[Thavarshan Thayananthajothy](https://twitter.com/thavarshan)** under the **[MIT license](https://opensource.org/licenses/MIT)**.
 

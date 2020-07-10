@@ -1,8 +1,10 @@
-/vendor
-composer.phar
+.idea/*
+.idea/codeStyleSettings.xml
 composer.lock
-.DS_Store
-Thumbs.db
-/.idea
-/.vscode
+/vendor/
+coverage.xml
 .phpunit.result.cache
+.php_cs.cache
+*.swp
+*.swo
+.DS_Store

@@ -1,23 +1,32 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Base;
 
-class Project
+/**
+ * @internal.
+ */
+final class Project
 {
     /**
      * The name of the project.
-     *
-     * @var string
      */
-    protected $name;
+    private string $name;
 
     /**
      * Create a new project instance.
-     *
-     * @param string $name
      */
-    public function __construct($name)
+    public function __construct(string $name)
     {
         $this->name = $name;
+    }
+
+    /**
+     * Get the name of the project.
+     */
+    public function name(): string
+    {
+        return $this->name;
     }
 }
