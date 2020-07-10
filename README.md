@@ -1,19 +1,12 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/thavarshan/base/master/docs/img/example.png" height="300" alt="Skeleton Php">
-
     <p align="center">
         <a href="https://github.com/thavarshan/base/actions"><img alt="GitHub Workflow Status (master)" src="https://img.shields.io/github/workflow/status/thavarshan/base/Tests/master"></a>
-
-        <a href="https://packagist.org/packages/thavarshan/base">
-            <img alt="Total Downloads" src="https://img.shields.io/packagist/dt/thavarshan/base">
+        <a href="https://packagist.org/packages/thavarshan/base"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/thavarshan/base">
         </a>
-
-        <a href="https://packagist.org/packages/thavarshan/base">
-            <img alt="Latest Version" src="https://img.shields.io/packagist/v/thavarshan/base">
+        <a href="https://packagist.org/packages/thavarshan/base"><img alt="Latest Version" src="https://img.shields.io/packagist/v/thavarshan/base">
         </a>
-
-        <a href="https://packagist.org/packages/thavarshan/base">
-            <img alt="License" src="https://img.shields.io/packagist/l/thavarshan/base">
+        <a href="https://packagist.org/packages/thavarshan/base"><img alt="License" src="https://img.shields.io/packagist/l/thavarshan/base">
         </a>
     </p>
 </p>
