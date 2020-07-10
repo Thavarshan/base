@@ -23,6 +23,7 @@ $rules = [
 $rules['increment_style'] = ['style' => 'post'];
 
 return PhpCsFixer\Config::create()
+    ->setLineEnding(PHP_EOL)
     ->setUsingCache(true)
     ->setRules($rules)
     ->setFinder($finder);
