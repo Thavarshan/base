@@ -9,7 +9,7 @@ class Project
      *
      * @var string
      */
-    private $name;
+    protected $name;
 
     /**
      * Create a new project instance.
