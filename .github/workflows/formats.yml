@@ -1,9 +1,11 @@
 name: Formats
 
-on: ['push', 'pull_request']
+on:
+  push:
+  pull_request:
 
 jobs:
-  ci:
+  formats:
     runs-on: ${{ matrix.os }}
 
     strategy:
