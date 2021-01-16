@@ -13,9 +13,9 @@
 
 Base is a basic skeleton of a typical PHP composer package. It comes in handy when you need to quickly develop a PHP package.
 
-> **Requires [PHP 7.3.0+](https://php.net/releases/)**
+> **Requires [PHP 7.4.0+](https://php.net/releases/)**
 
-✨ Create the package using [Composer](https://getcomposer.org):
+Create the package using [Composer](https://getcomposer.org):
 
 ```bash
 composer create-project thavarshan/base --prefer-source PackageName
@@ -26,12 +26,12 @@ composer create-project thavarshan/base --prefer-source PackageName
 composer lint
 ```
 
-✅ Run unit tests using **PHPUnit**:
+Run unit tests using **PHPUnit**:
 ```bash
 composer test:unit
 ```
 
-🚀 Run the entire test suite:
+Run the entire test suite:
 ```bash
 composer test
 ```

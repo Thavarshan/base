@@ -1,13 +1,8 @@
 <?php
 
-declare(strict_types=1);
-
 namespace Base;
 
-/**
- * @internal.
- */
-final class Project
+class Project
 {
     /**
      * The name of the project.
