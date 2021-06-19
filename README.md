@@ -1,11 +1,9 @@
 # :package_description
 
 ---
-This package can be used as to scaffold a typical PHP package. Follow these steps to get started:
+This package can be used as to scaffold a typical PHP package. It's easy to set up:
 
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton
-2. Run `chmod +x bin/setup.sh && bin/setup.sh` to run a script that will replace all placeholders throughout all the files
-3. Have fun creating your package.
+Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton and have fun creating your package.
 ---
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
@@ -21,7 +19,7 @@ composer require vendor_slug/package_slug
 ## Usage
 
 ```php
-$example = new VendorName\Example('Foo');
+$example = new Base\Example('Foo');
 echo $example->name();
 ```
 

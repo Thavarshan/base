@@ -1,18 +1,18 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "thavarshan/base",
+    "description": "A basic repository for quickly scaffolding typical PHP packages",
     "keywords": [
-        ":vendor_name",
-        "package_slug"
-    ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
-    "authors": [
-        {
-            "name": ":author_name",
-            "email": "author@domain.com"
-        }
+        "php",
+        "basic",
+        "package"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Thavarshan Thayananthajothy",
+            "email": "tjthavarshan@gmail.com"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0"
     },
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\": "src/"
+            "Base\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Tests\\": "tests/"
+            "Base\\Tests\\": "tests/"
         }
     },
     "scripts": {

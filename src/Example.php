@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName;
+namespace Base;
 
 class Example
 {
