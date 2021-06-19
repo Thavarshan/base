@@ -1,40 +1,53 @@
-<p align="center">
-    <img src="https://raw.githubusercontent.com/thavarshan/base/master/docs/img/example.png" height="300" alt="Skeleton Php">
-    <p align="center">
-        <a href="https://github.com/thavarshan/base/actions"><img alt="GitHub Workflow Status (master)" src="https://img.shields.io/github/workflow/status/thavarshan/base/Tests/master"></a>
-        <a href="https://packagist.org/packages/thavarshan/base"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/thavarshan/base">
-        </a>
-        <a href="https://packagist.org/packages/thavarshan/base"><img alt="Latest Version" src="https://img.shields.io/packagist/v/thavarshan/base">
-        </a>
-        <a href="https://packagist.org/packages/thavarshan/base"><img alt="License" src="https://img.shields.io/packagist/l/thavarshan/base">
-        </a>
-    </p>
-</p>
+# :package_description
 
-Base is a basic skeleton of a typical PHP composer package. It comes in handy when you need to quickly develop a PHP package.
+---
+This package can be used as to scaffold a typical PHP package. Follow these steps to get started:
 
-> **Requires [PHP 7.4.0+](https://php.net/releases/)**
+1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this skeleton
+2. Run `chmod +x bin/setup.sh && bin/setup.sh` to run a script that will replace all placeholders throughout all the files
+3. Have fun creating your package.
+---
 
-Create the package using [Composer](https://getcomposer.org):
+This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+
+## Installation
+
+You can install the package via composer:
 
 ```bash
-composer create-project thavarshan/base --prefer-source PackageName
+composer require vendor_slug/package_slug
 ```
 
-🧹 Keep a modern codebase with **PHP CS Fixer**:
-```bash
-composer lint
+## Usage
+
+```php
+$example = new VendorName\Example('Foo');
+echo $example->name();
 ```
 
-Run unit tests using **PHPUnit**:
-```bash
-composer test:unit
-```
+## Testing
 
-Run the entire test suite:
 ```bash
 composer test
 ```
 
-**Base** was created by **[Thavarshan Thayananthajothy](https://twitter.com/thavarshan)** under the **[MIT license](https://opensource.org/licenses/MIT)**.
+## Changelog
 
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+
+## Security Vulnerabilities
+
+Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+
+## Credits
+
+- [:author_name](https://github.com/:author_username)
+- [All Contributors](../../contributors)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.

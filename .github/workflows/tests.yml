@@ -38,5 +38,5 @@ jobs:
     - name: Install Composer dependencies
       run: composer update --${{ matrix.dependency-version }} --no-interaction --prefer-dist
 
-    - name: Integration Tests
+    - name: Run Tests
       run: php ./vendor/bin/phpunit

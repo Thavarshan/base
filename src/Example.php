@@ -1,8 +1,8 @@
 <?php
 
-namespace Base;
+namespace VendorName;
 
-class Project
+class Example
 {
     /**
      * The name of the project.
@@ -13,6 +13,10 @@ class Project
 
     /**
      * Create a new project instance.
+     *
+     * @param string $name
+     *
+     * @return void
      */
     public function __construct(string $name)
     {
@@ -21,6 +25,8 @@ class Project
 
     /**
      * Get the name of the project.
+     *
+     * @return string $name
      */
     public function name(): string
     {

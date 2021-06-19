@@ -1,12 +1,15 @@
 {
-    "name": "thavarshan/base",
-    "type": "project",
-    "description": "A PHP package template.",
-    "keywords": ["php", "composer", "package"],
+    "name": "vendor_slug/package_slug",
+    "description": ":package_description",
+    "keywords": [
+        ":vendor_name",
+        "package_slug"
+    ],
+    "homepage": "https://github.com/vendor_slug/package_slug",
     "authors": [
         {
-            "name": "Thavarshan Thayananthajothy",
-            "email": "tjthavarshan@gmail.com"
+            "name": ":author_name",
+            "email": "author@domain.com"
         }
     ],
     "license": "MIT",
@@ -14,38 +17,28 @@
         "php": "^7.4|^8.0"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.4.2",
-        "phpunit/phpunit": "^9.4",
-        "friendsofphp/php-cs-fixer": "^2.16.3",
-        "phpstan/phpstan": "^0.12.48",
-        "symfony/var-dumper": "^5.2.1"
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^5.3"
     },
     "autoload": {
         "psr-4": {
-            "Base\\": "src/Base"
+            "VendorName\\": "src/VendorName"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Base\\Tests\\": "tests/"
+            "VendorName\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
     "config": {
         "sort-packages": true,
         "preferred-install": "dist"
     },
-    "scripts": {
-        "lint": "php-cs-fixer fix -v",
-        "test:lint": "php-cs-fixer fix -v --dry-run",
-        "test:types": "phpstan analyse --ansi --memory-limit=0",
-        "test:unit": "vendor/bin/phpunit --colors=always",
-        "test": [
-            "@test:lint",
-            "@test:types",
-            "@test:unit"
-        ]
-    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
