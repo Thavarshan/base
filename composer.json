@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\": "src/VendorName"
+            "VendorName\\": "src/"
         }
     },
     "autoload-dev": {

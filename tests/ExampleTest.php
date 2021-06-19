@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class ExampleTest extends TestCase
 {
-    public function trueIsTrue()
+    public function testInstantiation()
     {
         $example = new Example('foo');
 
